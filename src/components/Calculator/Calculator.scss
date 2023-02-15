@@ -1,0 +1,107 @@
+.Calculator__wrapper {
+
+  padding: 38px 31px;
+
+  background: #ffa6a6;
+
+  border-radius: 18px;
+}
+
+.Calculator__body {
+  width: 554px;
+  //height: 800px;
+
+  padding: 100px 48px 44px 48px;
+
+  background: linear-gradient(155.23deg, #28518E 0%, #3A77D1 100%);
+  box-shadow: 0px 82px 158px rgba(0, 0, 0, 0.35), 0px 24.7206px 47.6324px rgba(0, 0, 0, 0.228056), 0px 10.2677px 19.7841px rgba(0, 0, 0, 0.175), 0px 3.71362px 7.1555px rgba(0, 0, 0, 0.121944);
+  border-radius: 18px;
+}
+
+.Calculator__scoreboard {
+  border-bottom: 2px solid #799acc;
+}
+
+.Calculator__scoreboard-desc {
+  margin-bottom: 20px;
+  min-height: 32px;
+
+  font-family: 'Geometria';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.33;
+
+  text-align: right;
+
+  color: #F2F2F2;
+}
+
+.Calculator__scoreboard-result {
+  font-family: 'Geometria';
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.43;
+
+  text-align: right;
+
+  overflow: hidden;
+  color: #F2F2F2;
+}
+
+.Calculator__dashboard {
+  margin-top: 37px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  column-gap: 20px;
+  row-gap: 16px;
+}
+
+@media (max-width: 1600px) {
+  .Calculator__wrapper {
+    padding: 26.6px 21.7px;
+  }
+  .Calculator__body {
+    width: 387.8px;
+    padding: 70px 33.6px 30.8px 33.6px;
+  }
+  .Calculator__scoreboard-desc {
+    min-height: 22.6px;
+    margin-bottom: 14px;
+    font-size: 17px;
+  }
+  .Calculator__scoreboard-result {
+    font-size: 40px;
+  }
+  .Calculator__dashboard {
+    margin-top: 26px;
+
+    column-gap: 14px;
+    row-gap: 11px;
+  }
+}
+
+@media (max-width: 600px) {
+  .Calculator__wrapper {
+    padding: 15.2px 12.4px;
+  }
+  .Calculator__body {
+    width: 221.6px;
+    padding: 40px 15px 17.6px 15px;
+  }
+  .Calculator__scoreboard-desc {
+    margin-bottom: 8px;
+    font-size: 10px;
+  }
+  .Calculator__scoreboard-result {
+    font-size: 22.8px;
+  }
+  .Calculator__dashboard {
+    margin-top: 14.9px;
+
+    column-gap: 8px;
+    row-gap: 6.3px;
+  }
+}

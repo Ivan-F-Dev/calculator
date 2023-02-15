@@ -1,0 +1,69 @@
+/*Null*/
+*,
+* ::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  color: inherit;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+
+body,
+html {
+  height: 100%;
+  line-height: 1;
+}
+
+/*Fonts*/
+@font-face {
+  font-family: 'Geometria';
+  src: url("./assets/fonts/geometria/geometria_light.otf") format("opentype"),
+       url("./assets/fonts/geometria/geometria_light.woff") format("woff"),
+       url("./assets/fonts/geometria/geometria_light.woff2") format("woff2");
+  font-weight: 300;  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  src: url("./assets/fonts/geometria/geometria_medium.otf") format("opentype"),
+       url("./assets/fonts/geometria/geometria_medium.woff") format("woff"),
+       url("./assets/fonts/geometria/geometria_medium.woff2") format("woff2");
+  font-weight: 500;  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  src: url("./assets/fonts/geometria/geometria_bold.otf") format("opentype"),
+       url("./assets/fonts/geometria/geometria_bold.woff") format("woff"),
+       url("./assets/fonts/geometria/geometria_bold.woff2") format("woff2");
+  font-weight: 700;  font-style: normal;
+  font-display: swap;
+}
+
