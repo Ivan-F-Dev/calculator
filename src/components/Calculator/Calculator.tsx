@@ -142,7 +142,7 @@ const Calculator: FC<Props> = (props) => {
                     </div>
                 </div>
                 <div className="Calculator__dashboard">
-                    <Button symbol={'C1'} handler={clear} value={'C'}/>
+                    <Button symbol={'C2'} handler={clear} value={'C'}/>
                     <Button symbol={'√'} handler={root} value={'√'}/>
                     <Button symbol={'%'} handler={percent} value={'%'}/>
                     <Button symbol={'/'} handler={addOperation} value={'/'}/>
